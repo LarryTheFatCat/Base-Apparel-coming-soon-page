@@ -9,9 +9,26 @@ html {
 .img-left {
     position: relative;
     left: 14.7cm;
-    top: -8cm;
+    top: -16.4cm;
 }
 
 .description-content {
     width: 10cm;
+}
+
+.title-content {
+    font-size: 100px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: hsl(0, 6%, 24%);
+}
+
+.title-word {
+    color: hsl(0, 36%, 70%);
+    font-size: 100px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    top: 2cm;
+    letter-spacing: 15px;
 }
