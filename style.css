@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+html {
+    font-family: "Josefin Sans", "Arial", sans-serif;
+    padding-left: 5cm;
+    padding-top: 2cm;
+    overflow: hidden;
+}
+.img-left {
+    position: relative;
+    left: 14.7cm;
+    top: -8cm;
+}
+
+.description-content {
+    width: 10cm;
+}
