@@ -23,13 +23,21 @@
       Hello fellow shoppers! We're currently building our new fashion store. 
       Add your email below to stay up-to-date with announcements and our launch deals.
     </p>
-    <form action="submit">
-    <button class="btn-submit" type="submit" aria-required="true">
+    <form action="submit" class="form-control">
+    <button class="btn-submit" type="submit" aria-required="true" onclick="checkForValidation()">
       <img src="/images/icon-arrow.svg" alt="" class="btn-arrow">
     </button>      
-    <input type="text" class="button-submit" placeholder="Email Address" required>
+    <input type="text" class="input-submit" placeholder="Email Address" required>
     </form>
     <img src="/images/hero-desktop.jpg" alt="" class="img-left">
+    <script>
+      function checKForValidation() {
+        const email = document.getElementsByClassName("input-submit");
+        if(!email || !email.contains("@") && !email.contains(".")) {
+          alert("Invalid Email");
+        }
+      }
+    </script>
   </div>
 </body>
 </html>
