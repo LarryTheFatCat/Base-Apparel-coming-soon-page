@@ -36,3 +36,14 @@ html {
     top: 2cm;
     letter-spacing: 15px;
 }
+
+
+.input-submit {
+    width: 10cm;
+    border-radius: 20px;
+}
+
+.btn-submit {
+    position: relative;
+    left: 15cm;
+}
